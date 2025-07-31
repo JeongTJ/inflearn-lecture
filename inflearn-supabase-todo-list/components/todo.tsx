@@ -2,7 +2,6 @@
 
 import { Checkbox, IconButton } from "@material-tailwind/react";
 import { useState } from "react";
-import { isUndefined } from "util";
 
 export default function Todo() {
 	const [isEditing, setIsEditing] = useState(false);
